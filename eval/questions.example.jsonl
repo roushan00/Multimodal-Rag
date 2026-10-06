@@ -1,0 +1,3 @@
+{"q": "What was total revenue in Q3?", "source": "annual_report.pdf", "pages": [12], "type": "table"}
+{"q": "Which region grew fastest according to the bar chart?", "source": "annual_report.pdf", "pages": [14], "type": "chart"}
+{"q": "What is the warranty period for the pump?", "source": "manual.pdf", "pages": [3], "type": "text"}
