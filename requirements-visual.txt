@@ -1,0 +1,3 @@
+# GPU box only (ColQwen2 needs ~8 GB VRAM in bf16)
+torch>=2.2
+colpali-engine>=0.3.4
