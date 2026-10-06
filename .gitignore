@@ -1,9 +1,59 @@
+# Environment
 .env
 .venv/
+venv/
+env/
+
+# Secrets
+secrets/
+*-key.json
+*-credentials.json
+service-account*.json
+
+# Python
 __pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# Data & storage
 data/
 qdrant_storage/
-secrets/
+
+# Eval results (regenerated)
 .deepeval/
 eval/results*.json
 eval/deepeval_cases.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+*.tmp
+
+# Model weights (if downloaded locally)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.gguf

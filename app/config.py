@@ -7,8 +7,8 @@ from pydantic_settings import BaseSettings, SettingsConfigDict
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
-    google_application_credentials: str = "secrets/vertex-key.json"
-    gcp_project: str = "vertex-ocr-492906"
+    google_application_credentials: str = ""
+    gcp_project: str = ""
     gcp_location: str = "us-central1"
     llm_model: str = "gemini-2.5-flash"
     caption_model: str = "gemini-2.5-flash"
